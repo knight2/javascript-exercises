@@ -10,6 +10,8 @@ const removeFromArray = function(arr, ...theArgs) {
         //console.log(newArr);
     }
     //console.log(newArr);
+
+    return newArr;
 }
 
 //removeFromArray([1,2,3, 'hello'], 1,2,3,'hello');
